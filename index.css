@@ -1,0 +1,90 @@
+body{
+    background-color:#181818;
+    color:white;
+}
+h1 {
+    text-align:center;
+    text-transform: uppercase;
+    color:red;
+}
+div{
+    margin:auto;
+    padding: auto;
+    text-align: center;
+}
+#buttonadd{
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    #buttonadd:hover{
+        background-color:#006400;
+        transition: 2s;
+    }
+    #buttonclear{
+        background-color: #880808;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor:pointer;
+    
+    }
+    #buttonclear:hover{
+        background-color:#3f0000;
+        transition: 2s;
+    }
+    button{
+        cursor:pointer;
+        margin-left: 15px;
+        padding: 4px 12px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+    .removeButton{
+        background-color: #880808;
+    }
+    .validateButton{
+        background-color: #4CAF50;
+    }
+    li {
+        text-align: center;
+        list-style-position: inside;
+    }
+    .important{
+        color:black;
+        background-color: #ff4203;
+        padding: 4px 12px;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+
+    .changename{
+        color:black;
+        background-color: #f48225;
+        padding: 4px 12px;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor:pointer;
+    
+
+    }
+    input{
+        border-radius: 5px;
+        border:0px;
+        margin:20px;
+    }
+    

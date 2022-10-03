@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <div>
+        <h1> Todo App</h1>
+        <label for="input"> Add your tasks</label>
+        <input type="text" id="texte" placeholder="Enter task">
+        <button id="buttonadd" onclick="additem()">Add</button>
+        <button id="buttonclear" onclick="clearAllItem()">Clear</button>
+        </div>
+        <div id="affichage">
+            <ol id="listeoditems"></ol>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
